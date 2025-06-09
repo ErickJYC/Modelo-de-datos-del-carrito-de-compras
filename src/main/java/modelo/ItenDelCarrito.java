@@ -28,7 +28,7 @@ public class ItenDelCarrito {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-    public double getSubTotal(){
+    public double subTotal(){
         return producto.getPrecio() * cantidad;
     }
 

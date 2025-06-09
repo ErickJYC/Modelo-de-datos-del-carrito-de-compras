@@ -17,6 +17,7 @@ public class App {
         nuevosProductos.agregarCarrito(producto4,4);
         nuevosProductos.agregarCarrito(producto5,5);
 
+
         nuevosProductos.agregarDetalle();
 
     }
