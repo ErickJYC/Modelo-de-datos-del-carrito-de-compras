@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ec.edu.ups.vista.ProductoView">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="35" y="50" width="504" height="398"/>
+    </constraints>
+    <properties>
+      <background color="-13441792"/>
+      <enabled value="false"/>
+      <font name="Courier New" size="10" style="2"/>
+      <foreground color="-1764293"/>
+      <toolTipText value=""/>
+    </properties>
+    <border type="line" title-justification="2">
+      <font name="Arial Black" size="16" style="0"/>
+      <title-color color="-16764699"/>
+      <color color="-6339355"/>
+    </border>
+    <children>
+      <grid id="27162" binding="intermedio" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16764699"/>
+          <foreground color="-6339355"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c415b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nombre"/>
+            </properties>
+          </component>
+          <component id="faab4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Precio"/>
+            </properties>
+          </component>
+          <component id="5909e" class="javax.swing.JTextField" binding="txtCodigo">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-14162688"/>
+            </properties>
+          </component>
+          <component id="c2b07" class="javax.swing.JTextField" binding="txtNombre">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1910043"/>
+            </properties>
+          </component>
+          <component id="219e7" class="javax.swing.JTextField" binding="txtPrecio">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+          </component>
+          <component id="63eab" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Codigo"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d6a7f" binding="Abajo" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1764293"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8f75f" class="javax.swing.JButton" binding="btnAceptar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2122011"/>
+              <enabled value="false"/>
+              <foreground color="-2122011"/>
+              <text value="Aceptar"/>
+            </properties>
+          </component>
+          <component id="857bc" class="javax.swing.JButton" binding="btnRechazar">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2122011"/>
+              <enabled value="false"/>
+              <foreground color="-2122011"/>
+              <text value="Rechazar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e2aa0" binding="Arriba" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1739264"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="none" title="Creacion Porductos" title-justification="2" title-position="2">
+          <font name="Source Code Pro" size="22" style="2"/>
+        </border>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
